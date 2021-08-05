@@ -17,6 +17,6 @@ spec:
           image: gcr.io/ermias-biz/capstone-project-cluster-frontend:latest
           ports:
             - containerPort: 5000
-#          command: ["serve"]
-#          args: ["-s", "build"]
+          command: ["npm"]
+          args: ["run", "start"]
           imagePullPolicy: Always
