@@ -15,4 +15,5 @@ RUN npm install react-scripts@4.0.3 -g --silent
 COPY . ./
 
 # start app
-RUN npm run build
+RUN npm run start
+RUN serve -s build
