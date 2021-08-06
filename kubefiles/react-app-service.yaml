@@ -17,3 +17,4 @@ spec:
   selector:
     run: frontend
   type: NodePort
+#  loadBalancerIP: 34.149.74.164
