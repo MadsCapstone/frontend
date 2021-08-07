@@ -22,7 +22,7 @@ class RouteDef{
 }
 
 const Home_ = {
-    path:'/',
+    path:'/ ',
     sideBarText:'Home',
     sideBarIcon: <HomeIcon/>,
     mainView: <Home/>
@@ -36,7 +36,7 @@ const VizOne_ = {
 }
 
 const VizTwo_ = {
-    path: '/VizOne',
+    path: '/VizTwo',
     sideBarText: 'Vizualization Two',
     sideBarIcon: <MapIcon/>,
     mainView: <VizTwo/>
