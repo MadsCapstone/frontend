@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Switch, Router, Route} from 'react-router-dom'
-
+import outer_theme from "./Theme"
+import { ThemeProvider } from '@material-ui/core/styles';
 
 ReactDOM.render(
         <BrowserRouter>
-            <App />
+            <ThemeProvider theme={outer_theme}>
+                <App />
+            </ThemeProvider>
         </BrowserRouter>
     ,
   document.getElementById('root')
