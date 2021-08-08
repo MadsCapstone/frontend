@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: gcr.io/ermias-biz/capstone-project-cluster-frontend:latest
+          image: gcr.io/ermias-biz/capstone-project-cluster-prod-frontend:latest
           ports:
             - containerPort: 5000
           command: ["npm"]

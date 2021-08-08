@@ -8,7 +8,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCE_PROJECT }}
   CLUSTER_ZONE: ${{ secrets.CLUSTER_ZONE }}
-  CLUSTER_NAME: ${{ secrets.PROD_CLUSTER_NAME }}
+  CLUSTER_NAME: ${{ secrets.PROD_CLUSTER_NAME_V2 }}
   IMAGE_REACT: frontend
 #  IMAGE_NAME: gcr.io/$PROJECT_ID/$CLUSTER_NAME-$IMAGE
 
@@ -58,3 +58,8 @@ jobs:
       - name: Create React Service
         run: |-
           kubectl apply -f ./kubefiles/react-app-service.yaml
+
+      # Perform rolling update
+      - name: Rolling Update
+        run: |-
+          kubectl rollout restart deployment frontend
