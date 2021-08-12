@@ -36,7 +36,7 @@ class VizMap extends Component {
                     {/*    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"*/}
                     {/*/>*/}
                     <TileLayer
-                        url = "https://maptiles.the-ripple-effect.app/data/rivers_and_lakes/{z}/{x}/{y}.pbf"
+                        url = "https://maptiles.the-ripple-effect.app/data/rivers-and-lakes/#{z}/{x}/{y}.pbf"
                         attribution = 'Ermias Bizuwork'
                     />
                 </MapContainer>
