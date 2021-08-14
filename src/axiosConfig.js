@@ -28,4 +28,5 @@ axiosInstance.interceptors.response.use(response => {
 axiosInstance.defaults.headers.common['Authorization'] = 'AUTH TOKEN';
 axiosInstance.defaults.headers.post['Content-Type'] = 'application/json';
 
+
 export default axiosInstance

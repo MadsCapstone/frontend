@@ -40,7 +40,7 @@ class Dropdown extends Component{
                 options={this.state.options}
                 onChange={this.handleOnChange}
                 getOptionLabel={(option) => option.name}
-                style={{ width: '50vw' }}
+                style={{ width: '25vw' }}
                 renderInput={(params) => <TextField {...params} label="Select Invasive Species" variant="outlined" />}
             />
         )
