@@ -1,25 +1,11 @@
 import React, {Component} from "react";
-import {
-    MapContainer,
-    Map,
-    TileLayer,
-    FeatureGroup,
-    Marker,
-    Popup,
-    Circle,
-    CircleMarker,
-    Polyline,
-    Polygon,
-    Rectangle
-} from 'react-leaflet';
 import Dropdown from '../components/InvasiveSpeciesDropdown'
 import {Container, Grid, Paper, Button, Typography, Divider, Padding} from "@material-ui/core";
 import axiosInstance from "../axiosConfig";
 import VizMap from '../components/Map'
-import {expression} from "mapbox-gl/dist/style-spec/index.es";
-import axiosConfig from "../axiosConfig";
-
-
+import Hierarchy from "../components/Hierarchy";
+import TreeHierarchy from "../components/Hierarchy";
+import InvasiveNetwork from "../components/InvasiveNetwork";
 
 class VizOne extends Component{
     constructor(props) {
@@ -34,9 +20,22 @@ class VizOne extends Component{
             dropDownValue: "Placeholder data",
             line_colors: 'rgba(27, 30, 170, 1)',
             line_width: 1,
-            river_details: []
-    };
+            river_details: [],
+            graphData: null
+        };
     }
+
+    get_network_by_invasive(id){
+        axiosInstance.post(
+            axiosInstance.defaults.baseURL + "/species/impact",
+            {species_id: id}
+        ).then((response) => {
+                console.log(response)
+                this.setState({graphData: response.data})
+            }
+        )
+    }
+
     get_observations(id){
         const data = {species_id: id}
         axiosInstance.post(
@@ -50,10 +49,14 @@ class VizOne extends Component{
     }
 
     handleOnDropdownChange(value) {
-        this.setState({dropDownValue: value})
-        console.log(value.id)
-        console.log(value.name)
-        this.get_observations(value.id)
+        if (value !== null){
+            this.setState({dropDownValue: value})
+            this.get_observations(value.id)
+            this.get_network_by_invasive(value.id)
+        }else{
+            console.log("the dropdown value is null")
+        }
+
         // this.findWikipediaInformation(value.name)
     }
 
@@ -91,14 +94,6 @@ class VizOne extends Component{
         )
         this.setState({line_colors:linecolorExpression})
     }
-    // river_details = [
-    //     {name: "Manistee River", color: 'rgba(255, 0, 0, 1)'},
-    //     {name: "Tittabawassee River", color: "rgba(255, 0, 0, 1)"},
-    //     {name: "Whiting Creek", color:"rgba(255, 0, 0, 1)"},
-    //     {name: "West Split Rock River", color:"rgba(255, 0, 0, 1)"},
-    //     {name:"Elni Lake", color:"rgba(255, 0, 0, 1)"},
-    //     {name:"Cass River", color:"rgba(255, 0, 0, 1)"}
-    // ]
 
     handleButtonClick(river_details) {
         this.setRiverAttribute(this.river_details)
@@ -109,25 +104,28 @@ class VizOne extends Component{
             <div className="gridVizOne" flexGrow={1}>
                 <Grid container spacing={10}>
                     <Grid item xs={6}>
-                        {/*<Button*/}
-                        {/*    onClick={this.handleButtonClick}*/}
-                        {/*>*/}
-                        {/*    {"Change the river colors based on criteria"}*/}
-                        {/*</Button>*/}
                         <VizMap
                             center={this.state.center}
                             species={this.state.dropDownValue}
                             line_colors = {this.state.line_colors}
                         />
                     </Grid>
+                    <Divider/>
                     <Grid item xs={6}>
                         <Dropdown
                             padding={10}
                             onDropdownChange={this.handleOnDropdownChange}
                         />
-                        {/*<Typography>*/}
-                        {/*    {this.state.dropDownValue?.name || ""}*/}
-                        {/*</Typography>*/}
+
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Typography variant={"h3"}>
+                            {"Invasive Network"}
+                        </Typography>
+                        <InvasiveNetwork
+                            invasive = {this.state.dropDownValue}
+                            graphData = {this.state.graphData}
+                        />
                     </Grid>
                 </Grid>
             </div>
