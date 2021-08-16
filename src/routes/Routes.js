@@ -6,7 +6,7 @@ import VizTwo from "../pages/VizTwo";
 import About from "../pages/About";
 import Blog from "../pages/Blog";
 import Video from "../pages/Video";
-import FoodWeb from "../components/InvasiveNetwork"
+import FoodWeb from "../pages/FoodWeb"
 import HomeIcon from '@material-ui/icons/Home';
 import MapIcon from '@material-ui/icons/Map';
 import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
@@ -25,7 +25,7 @@ class RouteDef{
 }
 
 const Home_ = {
-    path:'/ ',
+    path:'/Home',
     sideBarText:'Home',
     sideBarIcon: <HomeIcon/>,
     mainView: <Home/>
@@ -84,4 +84,3 @@ const Routes = [
 ]
 
 export default Routes
-// export default RouteDef

@@ -3,16 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Switch, Router, Route} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 import outer_theme from "./Theme"
 import { ThemeProvider } from '@material-ui/core/styles';
+import HelmetHead from "./pages/HTML";
+
 
 ReactDOM.render(
         <BrowserRouter>
             <ThemeProvider theme={outer_theme}>
-                <App />
+                <HelmetHead/>
+                <App/>
             </ThemeProvider>
         </BrowserRouter>
+
     ,
   document.getElementById('root')
 );

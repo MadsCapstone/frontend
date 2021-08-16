@@ -148,7 +148,6 @@ function PersistentDrawerLeft() {
                                 <Route path={props.path} key={props.path}>
                                     {props.mainView}
                                 </Route>
-                                <Redirect exact from="/" to="/" />
                             </Switch>
                         )
                     )

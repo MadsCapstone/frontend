@@ -8,22 +8,11 @@ class HelmetHead extends React.Component {
     }
     render () {
         return (
-            <html>
-            <head>
-                <link
-                    rel="stylesheet"
-                    href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-                    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-                    crossOrigin=""
-                />
+            <Helmet>
+                <title>{"The Ripple Effect"}</title>
+                <link rel="icon" type="image/png" href="michigan_logo_32.png" sizes="32x32" />
                 <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet"/>
-            </head>
-            <body>
-            <div id="content">
-                <Navigation/>
-            </div>
-            </body>
-            </html>
+            </Helmet>
         );
     }
 }
