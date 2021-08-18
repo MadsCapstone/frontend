@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter, Redirect, Route} from 'react-router-dom'
 import outer_theme from "./Theme"
 import { ThemeProvider } from '@material-ui/core/styles';
 import HelmetHead from "./pages/HTML";

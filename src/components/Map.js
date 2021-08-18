@@ -32,7 +32,6 @@ class VizMap extends Component {
 
     get_species_data(){
         axiosConfig.get(axiosConfig.defaults.baseURL + '')
-
     }
 
     componentDidMount() {
@@ -55,29 +54,24 @@ class VizMap extends Component {
             paint:{
                 //set from parent component VizOne
                 "line-color": this.props.line_colors,
-                "line-width": ["match",
-                    ["get", "line-color"],
-                    'rgba(27, 30, 170, 1)',
-                    1,
-                    2
-                ]
+                "line-width": 1
+                //     ["match",
+                //     ["get", "line-color"],
+                //     'rgba(27, 30, 170, 1)',
+                //     1,
+                //     2
+                // ]
             },
         }
         return (
-            <div>
-                {/*<Typography>*/}
-                {/*    {this.props.species?.name || ""}*/}
-                {/*</Typography>*/}
-                {/*<Typography>*/}
-                {/*    {this.props.line_colors}*/}
-                {/*</Typography>*/}
+            <div >
                 <ReactMapGL
                     {...this.state.viewport}
                     mapStyle={'mapbox://styles/ebizuwo/cks9m3tra10dk18npmm7j1soc'}
                     mapboxApiAccessToken={MAPBOX_TOKEN}
                     onViewportChange={viewport => this.setState({viewport})}
-                    width="50vw"
-                    height="75vh"
+                    width="100%"
+                    height={"75vh"}
                 >
                     <Source {...source_style}>
                         <Layer {...river_layer_style}/>

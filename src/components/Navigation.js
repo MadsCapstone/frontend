@@ -145,7 +145,7 @@ function PersistentDrawerLeft() {
                 {
                     Routes.map((props, index) => (
                             <Switch>
-                                <Route path={props.path} key={props.path}>
+                                <Route exact path={props.path} key={props.path}>
                                     {props.mainView}
                                 </Route>
                             </Switch>

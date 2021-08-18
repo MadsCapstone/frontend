@@ -25,7 +25,7 @@ class RouteDef{
 }
 
 const Home_ = {
-    path:'/Home',
+    path:"/",
     sideBarText:'Home',
     sideBarIcon: <HomeIcon/>,
     mainView: <Home/>
@@ -33,7 +33,7 @@ const Home_ = {
 
 const VizOne_ = {
     path: '/VizOne',
-    sideBarText: 'Vizualization One',
+    sideBarText: 'Invasive Species Impact Network',
     sideBarIcon: <MapIcon/>,
     mainView: <VizOne/>
 }

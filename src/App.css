@@ -29,8 +29,14 @@
 }
 
 .map-container{
-  width: 50vw;
+  /*width: 50vw;*/
   height: 100vh;
+
+}
+
+.wiki-card-media{
+  max-height: 400px;
+  width: auto;
 }
 
 .mapboxgl-canvas {
@@ -43,6 +49,10 @@
 /*.map-container {*/
 /*  height: 400px;*/
 /*}*/
+.mapGl{
+  width:100%;
+  height:75vh;
+}
 
 .paper-vizone {
   width: 100%;

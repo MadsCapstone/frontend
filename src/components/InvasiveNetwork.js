@@ -44,15 +44,6 @@ class InvasiveNetwork extends Component{
                 ref = {this.graphref}
                 graphData={this.props.graphData}
                 nodeRelSize={4}
-                // linkDirectionalArrowLength={4}
-                // linkDirectionalParticles={1}
-                // nodeCanvasObject={(node, ctx, globalScale) => {this.canvasObject(node, ctx, globalScale)}}
-                // nodeCanvasObject={()=>{'after'}}
-                // nodePointerAreaPaint={(node, color, ctx) => {
-                //     // ctx.fillStyle = color;
-                //     const bckgDimensions = node.__bckgDimensions;
-                //     bckgDimensions && ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
-                // }}
                 nodeThreeObject={(node) => {
                     const sprite = new SpriteText(node.name)
                     sprite.color = "#5AF575";
@@ -72,9 +63,9 @@ class InvasiveNetwork extends Component{
         }
 
         return (
-            <>
+            <div width="80%">
                 {graph}
-            </>
+            </div>
 
 
     );
