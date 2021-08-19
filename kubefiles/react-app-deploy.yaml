@@ -20,9 +20,9 @@ spec:
           command: ["npm"]
           args: ["run", "start"]
           imagePullPolicy: Always
-        env:
-          - name: REACT_APP_MAPBOX_ACCESS_TOKEN
-            valueFrom:
-              secretKeyRef:
-                name: mapbox-token
-                key: REACT_APP_MAPBOX_ACCESS_TOKEN
+          env:
+            - name: REACT_APP_MAPBOX_ACCESS_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: mapbox-token
+                  key: REACT_APP_MAPBOX_ACCESS_TOKEN
