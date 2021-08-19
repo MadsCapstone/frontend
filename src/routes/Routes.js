@@ -40,7 +40,7 @@ const VizOne_ = {
 
 const VizTwo_ = {
     path: '/VizTwo',
-    sideBarText: 'Vizualization Two',
+    sideBarText: 'The Ripple Plot',
     sideBarIcon: <MapIcon/>,
     mainView: <VizTwo/>
 }
@@ -77,8 +77,8 @@ const Routes = [
     Home_,
     About_,
     FoodWeb_,
-    VizOne_,
     VizTwo_,
+    VizOne_,
     Blog_,
     Video_
 ]
