@@ -15,8 +15,6 @@ class WikiSearchResults extends Component{
         }
     }
 
-
-
     render() {
         let card;
         if (this.props.invasiveWikiPageDetails!==null){
@@ -30,7 +28,7 @@ class WikiSearchResults extends Component{
                         component={"img"}
                         alt={michigan_logo}
                         className={"wiki-card-media"}
-                        image={this.props.invasiveWikiPageDetails.data.thumbnail.source}
+                        image={this.props.invasiveWikiPageDetails.data ? this.props.invasiveWikiPageDetails.data.thumbnail.source:""}
                         title={"A title"}
                     />
                     <Divider variant={"middle"}/>
