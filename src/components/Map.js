@@ -9,7 +9,8 @@ import mapboxgl from 'mapbox-gl';
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
-const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
+// const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZWJpenV3byIsImEiOiJja3M5bTI4OGYyYzNlMnVwaWdnZWtkcTNjIn0.eeJKh9vdRsCPsZ-9-maSaA'
 
 class VizMap extends Component {
     constructor(props) {
