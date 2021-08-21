@@ -54,12 +54,6 @@ class VizMap extends Component {
                 //set from parent component VizOne
                 "line-color": this.props.line_colors,
                 "line-width": 1
-                //     ["match",
-                //     ["get", "line-color"],
-                //     'rgba(27, 30, 170, 1)',
-                //     1,
-                //     2
-                // ]
             },
         }
         return (

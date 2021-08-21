@@ -1,4 +1,4 @@
-name: FLASK_APP - Pipeline (Build,Deploy,Service)
+name: REACT APP - Pipeline (Build,Deploy,Service)
 
 on:
   push:

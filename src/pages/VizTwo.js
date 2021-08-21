@@ -14,7 +14,6 @@ class VizTwo extends Component{
             impacted_options:[],
             dropdownValue:null
         }
-        // this.handleButtonOnClick = this.handleButtonOnClick.bind(this)
         this.handleDropdownChange = this.handleDropdownChange.bind(this)
 
     }
@@ -54,10 +53,6 @@ class VizTwo extends Component{
         )
     }
 
-    // handleButtonOnClick(){
-    //     this.get_dropdown_data()
-    //     // this.get_data()
-    // }
     handleDropdownChange(value){
         this.setState({dropdownValue:value})
         this.get_ripple_plot_data(value)

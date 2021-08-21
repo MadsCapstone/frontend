@@ -11,6 +11,7 @@ class RipplePlot extends Component{
     }
 
     componentDidMount() {
+
     }
 
     render() {

@@ -25,7 +25,11 @@ class DropdownTarget extends Component{
         }else{
             this.setState({impacted:true})
         }
-        this.setState({value:'alewife'})
+        this.props.speciesDropdownChange([this.state.value,this.state.impacted])
+    }
+
+    componentDidMount() {
+        this.props.speciesDropdownChange([this.state.value,this.state.impacted])
     }
 
     render() {
@@ -54,7 +58,8 @@ class DropdownTarget extends Component{
                         <Grid item xs={5}>
                             <Autocomplete
                                 onChange={this.handleOnChangeDropdown}
-                                value={this.state.value}
+                                // value={this.state.value}
+                                defaultValue={this.state.value}
                                 options={this.state.impacted ? this.props.impacted_options:this.props.impacter_options}
                                 renderInput={(params) => <TextField {...params} label={this.state.impacted ? "Select Impacted Species": "Select Invasive Species"} variant="outlined" />}
                             />
