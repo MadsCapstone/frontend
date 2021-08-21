@@ -33,14 +33,14 @@ const Home_ = {
 
 const VizOne_ = {
     path: '/VizOne',
-    sideBarText: 'Invasive Species Impact Network',
+    sideBarText: 'Impact Network Map',
     sideBarIcon: <MapIcon/>,
     mainView: <VizOne/>
 }
 
 const VizTwo_ = {
     path: '/VizTwo',
-    sideBarText: 'The Ripple Plot',
+    sideBarText: 'Ripple Plot',
     sideBarIcon: <MapIcon/>,
     mainView: <VizTwo/>
 }

@@ -8,11 +8,13 @@ class RipplePlot extends Component{
         this.state={
 
         }
+        console.log(this.props.data)
     }
 
     componentDidMount() {
 
     }
+
 
     render() {
         return(
@@ -34,9 +36,6 @@ class RipplePlot extends Component{
                             range:[0,3.1],
                             tickvals:[0,1,2,3]
                         }
-                    },
-                    font:{
-                        size:8
                     },
                 }}
                 data={this.props.data}
