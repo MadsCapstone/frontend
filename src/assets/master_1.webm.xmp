@@ -1,0 +1,260 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c003 79.164527, 2020/10/15-17:48:32        " rdfhash="AD3FB55ED6FD6867B4CF47094CA60DF4" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+    xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmpMM:InstanceID="xmp.iid:3de0f0da-a4a5-4b54-8f4d-8d6f7df98676"
+   xmpMM:DocumentID="ed0478f1-4e3b-0159-00cb-becf00000045"
+   xmpMM:OriginalDocumentID="xmp.did:ed748922-0ec8-48a3-8d94-2d6bb585acba"
+   xmp:MetadataDate="2021-08-21T14:55:40-04:00"
+   xmp:ModifyDate="2021-08-21T14:55:40-04:00"
+   xmp:CreatorTool="Adobe Premiere Pro 2021.0 (Macintosh)"
+   xmp:CreateDate="2021-08-21T14:50:13-04:00"
+   xmpDM:videoFrameRate="29.970030"
+   xmpDM:videoFieldOrder="Progressive"
+   xmpDM:videoPixelAspectRatio="1/1"
+   xmpDM:audioSampleRate="48000"
+   xmpDM:audioSampleType="Compressed"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="30000"
+   xmpDM:startTimeSampleSize="1001"
+   dc:format="WebM">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="fffc5543-6a4c-6429-acb2-8a9000000072"
+      stEvt:when="2021-08-21T14:55:40-04:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:ea269e9b-0a62-4234-9a38-840a560eecd3"
+      stEvt:when="2021-08-21T14:48:20-04:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:08cef26f-18d3-4e0e-9530-ecddce3f0890"
+      stEvt:when="2021-08-21T14:55:40-04:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:3de0f0da-a4a5-4b54-8f4d-8d6f7df98676"
+      stEvt:when="2021-08-21T14:55:40-04:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="1a4448b0-6ce3-46a5-d3eb-97a700000070"
+      stRef:documentID="d9402e76-6ac0-97fd-5c46-d13400000043"
+      stRef:fromPart="time:728907379200f254016000000d2254527475200f254016000000"
+      stRef:toPart="time:2686786502400f254016000000d2254527475200f254016000000"
+      stRef:filePath="DJI_0008.MP4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="27fb7430-c8a0-e262-a718-168a00000070"
+      stRef:documentID="421a988c-7a91-c340-33af-1a7400000043"
+      stRef:fromPart="time:1559522764800f254016000000d2686786502400f254016000000"
+      stRef:toPart="time:0d2686786502400f254016000000"
+      stRef:filePath="DJI_0006.MP4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="7a2cf714-58ab-bf61-44fd-d56d00000070"
+      stRef:documentID="f1f205a5-d8cd-a8a6-a022-7af900000043"
+      stRef:fromPart="time:14823941932800f254016000000d1474766092800f254016000000"
+      stRef:toPart="time:15298579296000f254016000000d1474766092800f254016000000"
+      stRef:filePath="fly_over.MP4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="7a2cf714-58ab-bf61-44fd-d56d00000070"
+      stRef:documentID="f1f205a5-d8cd-a8a6-a022-7af900000043"
+      stRef:fromPart="time:16298708025600f254016000000d2941056518400f254016000000"
+      stRef:toPart="time:16773345388800f254016000000d2941056518400f254016000000"
+      stRef:filePath="fly_over.MP4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="7a2cf714-58ab-bf61-44fd-d56d00000070"
+      stRef:documentID="f1f205a5-d8cd-a8a6-a022-7af900000043"
+      stRef:fromPart="time:584821036800f254016000000d2551175827200f254016000000"
+      stRef:toPart="time:4941313977600f254016000000d2551175827200f254016000000"
+      stRef:filePath="fly_over.MP4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="7a2cf714-58ab-bf61-44fd-d56d00000070"
+      stRef:documentID="f1f205a5-d8cd-a8a6-a022-7af900000043"
+      stRef:fromPart="time:3135996864000f254016000000d2424040819200f254016000000"
+      stRef:toPart="time:7492489804800f254016000000d2424040819200f254016000000"
+      stRef:filePath="fly_over.MP4"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="d5bf802a-1a6d-d27f-4f98-29fd00000070"
+      stRef:documentID="a893954d-7de7-30f0-e22f-ed3a00000043"
+      stRef:fromPart="time:957750393600f254016000000d5382048672000f254016000000"
+      stRef:toPart="time:9916530624000f254016000000d5382048672000f254016000000"
+      stRef:filePath="DJI_0009.MP4"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2021-08-15T18:38:19Z"
+       xmp:ModifyDate="2021-08-21T14:48:20-04:00"
+       xmp:MetadataDate="2021-08-21T14:48:20-04:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="1a4448b0-6ce3-46a5-d3eb-97a700000070"
+       xmpMM:DocumentID="d9402e76-6ac0-97fd-5c46-d13400000043"
+       xmpMM:OriginalDocumentID="xmp.did:a9ab66a6-3386-44d5-99dd-ef91f11d2a52">
+      <xmpDM:duration
+       xmpDM:value="25393"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="1a4448b0-6ce3-46a5-d3eb-97a700000070"
+         stEvt:when="2021-08-21T14:48:20-04:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2021-08-15T17:45:25Z"
+       xmp:ModifyDate="2021-08-21T14:48:20-04:00"
+       xmp:MetadataDate="2021-08-21T14:48:20-04:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="27fb7430-c8a0-e262-a718-168a00000070"
+       xmpMM:DocumentID="421a988c-7a91-c340-33af-1a7400000043"
+       xmpMM:OriginalDocumentID="xmp.did:304c3c0d-fe0a-49a3-aa02-d15474553490">
+      <xmpDM:duration
+       xmpDM:value="42943"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="27fb7430-c8a0-e262-a718-168a00000070"
+         stEvt:when="2021-08-21T14:48:20-04:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2021-08-15T17:35:58Z"
+       xmp:ModifyDate="2021-08-21T14:48:20-04:00"
+       xmp:MetadataDate="2021-08-21T14:48:20-04:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="7a2cf714-58ab-bf61-44fd-d56d00000070"
+       xmpMM:DocumentID="f1f205a5-d8cd-a8a6-a022-7af900000043"
+       xmpMM:OriginalDocumentID="xmp.did:79e96647-f19c-42bd-a46c-e549ea0e014f">
+      <xmpDM:duration
+       xmpDM:value="155656"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="7a2cf714-58ab-bf61-44fd-d56d00000070"
+         stEvt:when="2021-08-21T14:48:20-04:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2021-08-15T18:39:34Z"
+       xmp:ModifyDate="2021-08-21T14:48:20-04:00"
+       xmp:MetadataDate="2021-08-21T14:48:20-04:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="d5bf802a-1a6d-d27f-4f98-29fd00000070"
+       xmpMM:DocumentID="a893954d-7de7-30f0-e22f-ed3a00000043"
+       xmpMM:OriginalDocumentID="xmp.did:2891c087-76e5-4a93-b345-3ad05dae2b5a">
+      <xmpDM:duration
+       xmpDM:value="32600"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="d5bf802a-1a6d-d27f-4f98-29fd00000070"
+         stEvt:when="2021-08-21T14:48:20-04:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:ea269e9b-0a62-4234-9a38-840a560eecd3"
+    stRef:documentID="xmp.did:ea269e9b-0a62-4234-9a38-840a560eecd3"
+    stRef:originalDocumentID="xmp.did:ea269e9b-0a62-4234-9a38-840a560eecd3"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"
+    creatorAtom:posixProjectPath="/Users/ebiz/OneDrive/School_Work/UMICH/SIADS_697/Projects/video/website-banner.prproj"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:videoFrameSize
+    stDim:w="1080"
+    stDim:h="608"
+    stDim:unit="pixel"/>
+   <xmpDM:duration
+    xmpDM:value="2326"
+    xmpDM:scale="1001/30000"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="2997NonDropTimecode"
+    xmpDM:timeValue="00:00:00:00"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:00:00"
+    xmpDM:timeFormat="2997NonDropTimecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>

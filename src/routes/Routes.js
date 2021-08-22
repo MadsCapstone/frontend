@@ -13,6 +13,7 @@ import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
 import InfoIcon from '@material-ui/icons/Info';
 import BookIcon from '@material-ui/icons/Book';
 import BlurOnIcon from '@material-ui/icons/BlurOn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 
 class RouteDef{
@@ -25,62 +26,70 @@ class RouteDef{
 }
 
 const Home_ = {
-    path:"/",
+    path:"",
     sideBarText:'Home',
     sideBarIcon: <HomeIcon/>,
-    mainView: <Home/>
+    // mainView: <Home/>
 }
 
 const VizOne_ = {
-    path: '/VizOne',
+    path: '/project/VizOne',
     sideBarText: 'Impact Network Map',
     sideBarIcon: <MapIcon/>,
     mainView: <VizOne/>
 }
 
 const VizTwo_ = {
-    path: '/VizTwo',
+    path: '/project/VizTwo',
     sideBarText: 'Ripple Plot',
     sideBarIcon: <MapIcon/>,
     mainView: <VizTwo/>
 }
 
 const Video_ = {
-    path:'/Video',
+    path:'/project/Video',
     sideBarText: 'Video',
     sideBarIcon: <OndemandVideoIcon/>,
     mainView: <Video/>
 }
 
 const About_ = {
-    path:'/About',
+    path:'/project/About',
     sideBarText: 'About',
     sideBarIcon: <InfoIcon/>,
     mainView: <About/>
 }
 
 const Blog_ = {
-    path:'/Blog',
+    path:'/project/Blog',
     sideBarText: 'Blog Post',
     sideBarIcon: <BookIcon/>,
     mainView: <Blog/>
 }
 
 const FoodWeb_ = {
-    path:'/FoodWeb',
+    path:'/project/FoodWeb',
     sideBarText: 'Food Web',
     sideBarIcon: <BlurOnIcon/>,
+    mainView: <FoodWeb/>
+}
+
+const GitHub_ = {
+    path:'/project/GitHub',
+    sideBarText: 'Github',
+    sideBarIcon: <GitHubIcon/>,
     mainView: <FoodWeb/>
 }
 
 const Routes = [
     Home_,
     About_,
-    FoodWeb_,
+    // FoodWeb_,
     VizTwo_,
     VizOne_,
     Blog_,
-    Video_
+    Video_,
+    GitHub_
 ]
 
 export default Routes
