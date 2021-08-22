@@ -20,7 +20,7 @@ class Home extends Component{
                     <div className="content_logo">
                         <img src={logo} id={"logo_img_home"}/>
                         <div className={"enter_project_button_div"}>
-                            <Button component={Link} to={"/project"} variant="contained" color={"primary"}>Enter Project</Button>
+                            <Button style={{color:"primary"}} component={Link} to={"/project/Blog"} variant="contained" color={"primary"}>Enter Project</Button>
                         </div>
                     </div>
 

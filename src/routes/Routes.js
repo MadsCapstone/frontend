@@ -7,6 +7,7 @@ import About from "../pages/About";
 import Blog from "../pages/Blog";
 import Video from "../pages/Video";
 import FoodWeb from "../pages/FoodWeb"
+import Intro from "../pages/Intro"
 import HomeIcon from '@material-ui/icons/Home';
 import MapIcon from '@material-ui/icons/Map';
 import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
@@ -30,6 +31,13 @@ const Home_ = {
     sideBarText:'Home',
     sideBarIcon: <HomeIcon/>,
     // mainView: <Home/>
+}
+
+const Intro_ = {
+    path: '/project/Intro',
+    sideBarText: 'Introduction',
+    sideBarIcon: <MapIcon/>,
+    mainView: <Intro/>
 }
 
 const VizOne_ = {

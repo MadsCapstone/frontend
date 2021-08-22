@@ -52,7 +52,45 @@
   position: absolute;
   margin: 0 auto;
   transform: translate(0, 75%);
+  background-color: #027d8d;
   /*transform: translate(0, 200%);*/
+}
+
+.blog-post-div{
+  padding: 30px 50px;
+}
+
+.project-video-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 25%;
+}
+
+/*Link configuration*/
+a:link {
+  color: #027d8d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9e196a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: brown;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .App-header {
