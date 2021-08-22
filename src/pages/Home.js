@@ -1,10 +1,8 @@
 import React, {Component} from "react";
 import backgroundVideo from "../assets/master_1.webm"
 import {Button, Grid} from "@material-ui/core";
-import Typography from "@material-ui/core/Typography";
 import logo from "../assets/home_page_logo.png"
 import {Link, Route, Switch} from 'react-router-dom';
-import Navigation from "../components/Navigation";
 
 
 class Home extends Component{

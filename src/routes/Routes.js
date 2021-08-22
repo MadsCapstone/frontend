@@ -1,12 +1,11 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home'
 import VizOne from "../pages/VizOne";
 import VizTwo from "../pages/VizTwo";
 import About from "../pages/About";
 import Blog from "../pages/Blog";
 import Video from "../pages/Video";
-import FoodWeb from "../pages/FoodWeb"
+import GitHub from "../pages/GitHub"
 import Intro from "../pages/Intro"
 import HomeIcon from '@material-ui/icons/Home';
 import MapIcon from '@material-ui/icons/Map';
@@ -79,20 +78,19 @@ const FoodWeb_ = {
     path:'/project/FoodWeb',
     sideBarText: 'Food Web',
     sideBarIcon: <BlurOnIcon/>,
-    mainView: <FoodWeb/>
+    mainView: <GitHub/>
 }
 
 const GitHub_ = {
     path:'/project/GitHub',
     sideBarText: 'Github',
     sideBarIcon: <GitHubIcon/>,
-    mainView: <FoodWeb/>
+    mainView: <GitHub/>,
 }
 
 const Routes = [
     Home_,
     About_,
-    // FoodWeb_,
     VizTwo_,
     VizOne_,
     Blog_,

@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
-import {Typography} from "@material-ui/core";
 import markdown from "../assets/blog-post/blogpost.md"
 
 
@@ -27,10 +26,12 @@ class Blog extends Component{
 
         render() {
                 return(
-                    <div className={"blog-post-div"}>
-                        <ReactMarkdown children={this.state.blog} rehypePlugins={rehypeRaw}>
+                    <div className={"blog-post-parent"}>
+                            <div className={"blog-post-div"}>
+                                    <ReactMarkdown children={this.state.blog} rehypePlugins={rehypeRaw}>
 
-                        </ReactMarkdown>
+                                    </ReactMarkdown>
+                            </div>
                     </div>
                 )
         }

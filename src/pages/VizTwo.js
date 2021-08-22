@@ -1,9 +1,8 @@
 import React, {Component} from "react";
 import RipplePlot from "../components/RipplePlot";
-import {Button, Grid} from "@material-ui/core";
+import {Grid} from "@material-ui/core";
 import axiosInstance from "../axiosConfig";
 import DropdownTarget from "../components/DropdownTarget";
-import axios from "axios";
 
 class VizTwo extends Component{
     constructor(props) {

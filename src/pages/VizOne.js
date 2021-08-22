@@ -1,14 +1,10 @@
 import React, {Component} from "react";
 import Dropdown from '../components/InvasiveSpeciesDropdown'
-import {Container, Grid, Paper, Button, Typography, Divider, Padding, Box} from "@material-ui/core";
+import {Grid, Typography, Divider} from "@material-ui/core";
 import axiosInstance from "../axiosConfig";
 import VizMap from '../components/Map'
-import Hierarchy from "../components/Hierarchy";
-import TreeHierarchy from "../components/Hierarchy";
 import InvasiveNetwork from "../components/InvasiveNetwork";
 import WikiSearchResults from "../components/WikipediaSearch";
-import {makeStyles} from "@material-ui/core/styles";
-import { sizing } from '@material-ui/system';
 import axios from "axios";
 
 
