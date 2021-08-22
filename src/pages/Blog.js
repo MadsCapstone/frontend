@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
-import rehypeSanitize from "rehype-sanitize";
-import remarkGfm from "remark-gfm";
 import {Typography} from "@material-ui/core";
 import markdown from "../assets/blog-post/blogpost.md"
 

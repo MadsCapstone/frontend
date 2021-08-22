@@ -26,9 +26,6 @@ class Home extends Component{
 
                 </div>
                 <div>
-                    <Typography>
-                        Some new text over here
-                    </Typography>
                 </div>
                 </body>
             </>
