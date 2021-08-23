@@ -1,10 +1,8 @@
-import ReactDOM from "react-dom";
-import React, {useState, useEffect, Component} from "react";
+import React, {Component} from "react";
 import {Card, CardContent, CardHeader, CardMedia, Typography} from "@material-ui/core";
-import axios from "axios";
 import Divider from "@material-ui/core/Divider";
-import michigan_logo from "../assets/michigan_logo.png"
 import DefaultCard from "./DefaultWikiCard";
+import question_mark from "../assets/question_mark.jpeg"
 
 
 class WikiSearchResults extends Component{
@@ -26,9 +24,9 @@ class WikiSearchResults extends Component{
                     />
                     <CardMedia
                         component={"img"}
-                        alt={michigan_logo}
+                        alt={question_mark}
                         className={"wiki-card-media"}
-                        image={this.props.invasiveWikiPageDetails.data ? this.props.invasiveWikiPageDetails.data.thumbnail.source:""}
+                        image={this.props.invasiveWikiPageDetails.data.thumbnail ? this.props.invasiveWikiPageDetails.data.thumbnail.source: question_mark}
                         title={"A title"}
                     />
                     <Divider variant={"middle"}/>
