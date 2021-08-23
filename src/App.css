@@ -36,24 +36,52 @@
 
 }
 
+
 .about-container-grid{
   position: relative;
 
 }
 
 .about-container-paper{
+  display: flex;
   width: 80%;
-  height: 30vh;
   color: #08606a;
   padding: 20px;
 }
 
-.about-photo-div{
+.about-container-paper-grid{
   display: flex;
-  flex-direction: column;
-  flex:1;
+  align-items: center;
+  justify-content: center;
 }
+
+.about-photo-div{
+  padding:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#rob_photo{
+    width: 75%;
+
+}
+
+#ermias_photo{
+
+}
+
+#toby_photo{
+
+}
+
 .about-details-div{
+  padding:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 
 }
 
