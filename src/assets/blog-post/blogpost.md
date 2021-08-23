@@ -57,7 +57,7 @@ Each record was missing two critical values not in the technical reports: study 
 Lastly, we compiled a completed table and exported it as an Excel file for upload into the database.
 
 ### Findings, Methodology & Ethical Considerations
-- Choose the Right Library: The libraries used to extract the text varied in extraction accuracy (90% to 100%) and processing time (30 min to 30 seconds).  Test several options for performance before committing to a specific tool.
+- Choose the Right Library: The libraries used to extract the text varied in extraction accuracy (90% to 100%) and processing time (30 minutes to 30 seconds).  Test several options for performance before committing to a specific tool.
 - Beware Inconsistencies: We extracted information that had been compiled by hand and matched it to a specific data model. Differences in spelling, format, and spacing required careful consideration and introduced potential uncertainty into our findings.
 - Information Availability: Organizations are sometimes reluctant to provided unfettered access to their data.  Clearly state your complete expectations and requirements for data access in the negotiation stage: come to a clear understanding before you proceed.
 - Ontology Matters: The different levels present in the naming conventions of the species, references, and waterways (see below) made combining datasets more art than science.  Consult with domain experts and heed their advice.
@@ -192,7 +192,7 @@ For more information, visit our [<span style="color:#027d8d">website</span>](the
 - [<span style="color:#027d8d">The Cost of Aquatic Invasive Species to Great Lakes States</span>](https://www.andersoneconomicgroup.com/Portals/0/upload/AEG%20-%20AIS%20Impact_%209-20-2016%20Public.pdf)
 - [<span style="color:#027d8d">Deal reached on project to protect lakes from invasive fish</span>](https://apnews.com/article/technology-lake-michigan-army-fish-chicago-7e40381283991c37eec7a08552daddf4)
 - [<span style="color:#027d8d">GLERL's Research Programs</span>](https://www.glerl.noaa.gov)
-
+- [<span style="color:#027d8d">Wikipedia</span>](https://www.wikipedia.org) (All species images are algorithmically pulled from Wikipedia.)
 ---
 ## Creators
 ### Statement of Work

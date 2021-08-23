@@ -123,9 +123,12 @@ class InvasiveNetwork extends Component{
         }
 
         return (
-            <div width="80%">
-                {graph}
+            <div className={"invasive-network-parent"}>
+                <div className={"invasive-network"}>
+                    {graph}
+                </div>
             </div>
+
 
 
     );

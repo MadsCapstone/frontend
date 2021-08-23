@@ -77,7 +77,7 @@ class About extends Component{
                                     img_style={{width:"75%"}}
                                     name={"Toby Kemp"}
                                     title={"Chief Product Officer"}
-                                    bio={"Super cool dude"}
+                                    bio={"Toby Kemp is a data scientist at a Japanese law firm with experience in technical editing/translation and training/operations management. His interests include natural language processing, machine learning, complex systems, and agent-based modeling. He reads a lot."}
                                 />
                             </Grid>
                         </Grid>
